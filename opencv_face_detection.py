@@ -25,6 +25,7 @@ faces = faceCascade.detectMultiScale(
 )
 
 print "Found {0} faces!".format(len(faces))
+print "The type of the faces array is {}".format(type(faces))
 
 # Draw a rectangle around the faces
 for (x, y, w, h) in faces:
